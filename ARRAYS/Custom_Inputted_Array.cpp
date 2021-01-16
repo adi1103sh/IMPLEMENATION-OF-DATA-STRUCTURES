@@ -6,6 +6,7 @@ using namespace std;
 int main(){
     cout<<"THIS IS A CUSTOM INITIALISED ARRAY"<<endl;
     // DECLARATION & INITIALISATION OF VARIOUS ARRAYS
+    // ARRAY INDEX      0   1 2  3 4
     int integerArray[]={86,24,6,54,8};
     float floatArray[]={36.25,24.35,62.321,89.25,1.003};
     double doubleArray[]={86.35,42.3569,92.021,79.251,0.002};
