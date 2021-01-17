@@ -3,7 +3,7 @@ using namespace std;
 // IN CUSTOM DECLARED ARRAY I HAVE SHOWN YOU ALL TYPE OF ARRAYS, SO IN THIS WE WILL LOOK AT int & string ONLY
 int main(){
     cout<<"THIS IS A USER INPUTTED ARRAY"<<endl;
-    // DECLARING & STORING SIZE OF intArray
+    // DECLARING & STORING SIZE OF integerArray
     int iSize;
     cout<<"Enter size of integerArray ";
     cin>>iSize;
@@ -22,7 +22,7 @@ int main(){
     cin>>sSize;
     // DECLARING stringArray
     string stringArray[sSize];
-    // INITIALISING integerArray BY USER INPUT
+    // INITIALISING stringArray BY USER INPUT
     for(i=0;i<sSize;i++)
     {
         cout<<"Enter element ";
