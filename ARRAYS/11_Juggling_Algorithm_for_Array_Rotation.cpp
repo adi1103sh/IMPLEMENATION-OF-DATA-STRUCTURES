@@ -73,7 +73,7 @@ int main(){
             break;
         case 2:
             rotate(array,len,len-k);
-            cout<<"Contents of array after Counter-Clockwise Rotation"<<endl;
+            cout<<"Contents of array after Clockwise Rotation"<<endl;
             displayArray(array,len);
             break;
         default:
