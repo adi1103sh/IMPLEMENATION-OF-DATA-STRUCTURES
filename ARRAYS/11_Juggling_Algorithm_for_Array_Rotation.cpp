@@ -26,12 +26,14 @@ void displayArray(int integerArray[],int iSize){
         cout<<integerArray[i]<<" ";
     }
 }
+// HIGHEST COMMON FACTOR ALGO
 int gcd(int n1,int n2){
     if(n2==0)
     return n1;
     else
     return gcd(n2,n1%n2);
 }
+// ROTATE VIA JUGGLING ALGO
 void rotate(int arr[],int l,int pos){
     int i,j,temp,d=-1;
     for(i=0;i<gcd(l,pos);i++){
