@@ -3,7 +3,7 @@
 using namespace std;
 
 void displayVector(vector <int> &v){
-    for(int ele:v){
+    for(int ele:v){     // for-each LOOP
         cout<<ele<<" ";
     }
 }
