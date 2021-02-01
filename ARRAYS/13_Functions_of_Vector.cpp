@@ -70,5 +70,9 @@ int main()
     v2.emplace_back(11);
     cout<<endl<<"Displaying vector contents after using emplace_back(element) --> ";
     displayVector(v2);
+    // TO DELETE THE ENTIRE vector WE USE clear()
+    v1.clear();
+    cout<<endl<<"Displaying vector contents after using clear() --> "; 
+    displayVector(v1); // NO OUTPUT IS GENERATED FOR THIS AS ENTIRE vector v1 IS DELETED
     return 0;
 }
