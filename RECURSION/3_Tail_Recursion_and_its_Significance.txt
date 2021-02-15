@@ -1,0 +1,35 @@
+Recursion is when we call the function in the function itself
+but when the function is called at the last it is termed as
+"Tail Recursion".
+Ex- To print 1st 'n' Natural numbers in reverse order.
+    void print1stN(int N){
+        if(N==1)
+            return 1;
+        else
+            cout<<N<<" ";
+        return print1stN(N-1); 
+    }
+Here, in this since function is called at last therefore its
+Tail Recursive Function.
+
+Which one is better Tail Recursive or Non-Tail Recursive?
+-->The tail-recursive functions are considered better than non-tail recursive functions as tail-recursion can be optimized by compiler.
+-->Since the recursive call is the last statement, there is nothing left to do in the current function, so saving the current function’s stack frame is of no use.
+
+Let us try to write Non-Tail Recursive Function to Tail Recursive Function.
+
+*Non-Tail Recursive
+void fact(int n){
+    if(n==0)
+        return 1;
+    else
+        return n*fact(n-1);    
+}
+
+*Tail Recursive
+void factTR(int n, int a){
+    if(n==0)
+        return a;
+    else
+        return factTR(n-1,a*n);
+}
