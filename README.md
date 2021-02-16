@@ -8,8 +8,8 @@ proper code explanation and demo outputs attached to make coding lively.
 
 TOPICS TO BE COVERED:
 1. ARRAYS ✔
-2. RECURSION ⏳
-3. HASHING 🔒
+2. RECURSION ✔
+3. HASHING ⏳
 4. STRING 🔒
 5. SEARCHING SORTING 🔒
 6. LINKED LIST 🔒
